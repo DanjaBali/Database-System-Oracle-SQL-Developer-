@@ -1,0 +1,32 @@
+;;; 
+Export: Release 19.0.0.0.0 - Production on Sun Feb 20 00:13:27 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Starting "UNYT"."SYS_EXPORT_SCHEMA_02":  unyt/******** DIRECTORY=exp_schema DUMPFILE=Coffe_Shop_Schm.dpdmp LOGFILE=schm_lg.log SCHEMAS=unyt 
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/STATISTICS/MARKER
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+. . exported "UNYT"."EMPLOYEE"                           7.421 KB       2 rows
+. . exported "UNYT"."ORDER_ITEM"                         7.023 KB       5 rows
+. . exported "UNYT"."LOCATION"                           6.601 KB       5 rows
+. . exported "UNYT"."CUSTOMER"                           6.078 KB       5 rows
+. . exported "UNYT"."ITEMS"                              5.992 KB       3 rows
+. . exported "UNYT"."BILL"                               6.109 KB       5 rows
+. . exported "UNYT"."SYS_EXPORT_SCHEMA_01"               287.4 KB    1610 rows
+Master table "UNYT"."SYS_EXPORT_SCHEMA_02" successfully loaded/unloaded
+******************************************************************************
+Dump file set for UNYT.SYS_EXPORT_SCHEMA_02 is:
+  C:\DATA PUMP\SCHEMA EXPORT\COFFE_SHOP_SCHM.DPDMP
+Job "UNYT"."SYS_EXPORT_SCHEMA_02" successfully completed at Sun Feb 20 00:14:55 2022 elapsed 0 00:01:25
